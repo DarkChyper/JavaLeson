@@ -1,0 +1,15 @@
+
+public class sdz1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// My first programm
+		System.out.print("Hello world");
+		System.out.println("My name is");
+		System.out.print("\nDarkChyper");
+
+	}
+
+}
