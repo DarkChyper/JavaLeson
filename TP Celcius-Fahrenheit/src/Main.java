@@ -15,9 +15,8 @@ public class Main {
 		 */
 		
 		//Definition des variables 
-		int choix = 0;
-		float tempIn = 0, tempOut = 0;
-		double resultat;
+		char choix = ' ', mode = ' ';
+		double tempIn = 0, tempOut = 0, resultat;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("SYSTEME DE CONVERTION FARHENHEIT-CELCIUS");
@@ -35,20 +34,21 @@ public class Main {
 					 System.out.println("Choisissez le mode de conversion:");
 					 System.out.println("1 - Convertisseur Celcius en Fahrenheit");
 					 System.out.println("2 - Convertisseur Fahreinheit en Celcius");
-					 choix = sc.nextInt();
-				 }while(choix !=1 && choix !=2);
+					 mode = sc.nextLine().charAt(0);
+				 }while(mode !='1' && mode !='2');
 				 
 				 //On demande à l'utilisateur quelle temperature il veut convertir
 				 System.out.println("Température à convertir :");
-				 tempIn = sc.nextFloat();
+				 tempIn = sc.nextDouble();
+				 sc.nextLine();
 				 
-				 if(choix == 1) // converion C => F
+				 if(mode == '1') // converion C => F
 				 	{
 					 tempOut = ((9 * tempIn) / 5) + 32;
 					 resultat = arrondi(tempOut, 2);
 					 System.out.println(tempIn + " °C équivaut à " + resultat + " °F");
 				 	}
-				 else if(choix == 2)
+				 else if(mode == '2')
 				 	{
 					 tempOut = ((tempIn-32) * 5 ) / 9;
 					 resultat = arrondi(tempOut, 2);
@@ -57,12 +57,12 @@ public class Main {
 				 do // on demande si l'utilisteur veut sortir ou non
 				 	{
 					 System.out.println("Souhaitez vous convertir une autre température ? O/N");
-					 String sortie = sc.nextLine();
-					 char sort = sortie.charAT(0);
+					 choix = sc.nextLine().charAt(0);
 					 
-				 	}while(sort != 'O' && sort != 'o' && sort != 'n' && sort != 'N');
+					 
+				 	}while(choix != 'O' && choix != 'o' && choix != 'n' && choix != 'N');
 				 
-				 if(sort == 'O' || sort == 'o')
+				 if(choix == 'O' || choix == 'o')
 				 	fin = true;
 				 	
 		//Fin de la boucle du convertisseur, on sort du programme

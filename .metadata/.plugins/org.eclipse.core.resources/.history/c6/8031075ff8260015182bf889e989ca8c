@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class methodes {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String[] tablo = {"Tati", "Tata","Toto"};
+		afficheTableau(tablo);
+
+		 int a = 10, b = 20;
+		 int max = (a < b) ? ((b < 20) ? b * 2 : ((b > 20) ? b % 3 : b / 4) ) : ((a == 10) ? a / 2 : a % 3);
+		 System.out.println(max);
+		 
+		 
+	}
+	
+	public static void afficheTableau(String tabBis[]){
+		for(String str : tabBis)
+			System.out.println(str);
+	}
+
+}
