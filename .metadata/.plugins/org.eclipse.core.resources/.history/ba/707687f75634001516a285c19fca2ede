@@ -4,13 +4,13 @@ public class Ville {
 	public static int nbreInstances = 0;
 	
   // Variable privée qui comptera aussi les instances
-	protected static int nbreInstancesBis = 0;
+	private static int nbreInstancesBis = 0;
 	
 	
-  protected String nomVille;
-  protected String nomPays;
-  protected int nbreHabitants;
-  protected char categorie;
+  private String nomVille;
+  private String nomPays;
+  private int nbreHabitants;
+  private char categorie;
    
   public Ville(){
 	nbreInstances++;
@@ -81,7 +81,7 @@ public class Ville {
   }  
  
   //Définit la catégorie de la ville
-  protected void setCategorie() {
+  private void setCategorie() {
  
     int bornesSuperieures[] = {0, 1000, 10000, 100000, 500000, 1000000, 5000000, 10000000};
     char categories[] = {'?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};

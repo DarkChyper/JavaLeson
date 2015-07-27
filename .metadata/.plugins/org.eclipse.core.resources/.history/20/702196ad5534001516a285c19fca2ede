@@ -1,6 +1,9 @@
 
 public class Main {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Ville v = new Ville();                
 		System.out.println("Le nombre d'instances de la classe Ville est : " + Ville.nbreInstances);
