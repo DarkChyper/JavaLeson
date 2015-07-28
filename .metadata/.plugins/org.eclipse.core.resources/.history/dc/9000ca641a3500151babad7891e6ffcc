@@ -1,0 +1,17 @@
+
+public class Capitale extends Ville {
+	private String monument;
+	
+	public Capitale(){
+		//ce mot clef appelle le constructeur de la classe mère
+		super();
+		monument = "aucun";
+	}
+	
+	public String decrisTois(){
+		String str = super.decrisToi() + "\n \t ==>>" + this.monument + " est un monument";
+		System.out.println("Invocation de super.decrisToi()");
+		
+		return str;
+	}
+}
