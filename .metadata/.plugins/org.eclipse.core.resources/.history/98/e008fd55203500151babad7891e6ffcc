@@ -1,7 +1,0 @@
-package com.sdz.test2;
-
-public class Main {
-	 A a = new A();
-	 B b = new B();
-	 //Aucun problème ici
-}
