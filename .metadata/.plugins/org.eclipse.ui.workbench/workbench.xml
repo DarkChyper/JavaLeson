@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
-<window height="721" maximized="true" width="677" x="0" y="18">
+<window height="750" width="683" x="0" y="18">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="146"/>
@@ -13,11 +13,11 @@
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="155" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -37,13 +37,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" path="/home/dark/Scripts/java/JavaLeson/IO/test.txt" title="test.txt" tooltip="IO/test.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/test.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="105" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C1_premiere_classe.java" partName="P2C1_premiere_classe.java" path="/home/dark/Scripts/java/JavaLeson/P2C1_premiere_classe/src/P2C1_premiere_classe.java" title="P2C1_premiere_classe.java" tooltip="P2C1_premiere_classe/src/P2C1_premiere_classe.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C1_premiere_classe/src/P2C1_premiere_classe.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1548" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/dark/Scripts/java/JavaLeson/IO/src/Main.java" title="Main.java" tooltip="IO/src/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1411" selectionTopPixel="643"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ville.java" partName="Ville.java" path="/home/dark/Scripts/java/JavaLeson/P2C1_premiere_classe/src/Ville.java" title="Ville.java" tooltip="P2C1_premiere_classe/src/Ville.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C1_premiere_classe/src/Ville.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2433" selectionTopPixel="796"/>
 </editor>
 </editors>
 <views>
@@ -216,7 +216,6 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
 <fastViews>
@@ -245,13 +244,11 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.28996864" ratioLeft="185" ratioRight="453" relationship="2" relative="left"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@140e701" ratio="0.6401869" ratioLeft="411" ratioRight="231" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<info part="org.eclipse.ui.editorss" ratio="0.1661442" ratioLeft="106" ratioRight="532" relationship="2" relative="left"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@140e701" ratio="0.21150592" ratioLeft="125" ratioRight="466" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.4979253" ratioLeft="120" ratioRight="121" relationship="4" relative="org.eclipse.ui.internal.ViewStack@140e701">
@@ -280,175 +277,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/classes_abstraites_interfaces/src/Chien.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/classes_abstraites_interfaces/src/Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/classes_abstraites_interfaces/src/Rintintin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/com/sdz/comportement/AucunSoin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/Personnage.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/com/sdz/comportement/Soin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/com/sdz/comportement/Pacifiste.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/com/sdz/comportement/EspritCombatif.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/com/sdz/comportement/Courir.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Patern_Strategy/src/com/sdz/comportement/Deplacement.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Exceptions/src/test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Generecite/src/Solo.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Generecite/src/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Generecite/src/Duo.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Generecite/src/Garage.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Generecite/src/Voiture.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Generecite/src/VoitureSansPermis.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IO/test.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IO/test.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C1_premiere_classe/src/P2C1_premiere_classe.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C1_premiere_classe/src/Ville.java"/>
 </editors>
-<item historyLabel="Rintintin.java" index="2">
-<position info="not_deleted" x="90" y="0"/>
-</item>
-<item historyLabel="Chien.java" index="0">
-<position info="not_deleted" x="558" y="0"/>
-</item>
-<item historyLabel="Test.java" index="1">
-<position info="not_deleted" x="652" y="0"/>
-</item>
-<item historyLabel="AucunSoin.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Personnage.java" index="4">
-<position info="not_deleted" x="1417" y="0"/>
-</item>
-<item historyLabel="Personnage.java" index="4">
-<position info="not_deleted" x="685" y="0"/>
-</item>
-<item historyLabel="AucunSoin.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AucunSoin.java" index="3">
-<position info="not_deleted" x="65" y="4"/>
-</item>
-<item historyLabel="Soin.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Pacifiste.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Pacifiste.java" index="6">
-<position info="not_deleted" x="65" y="14"/>
-</item>
-<item historyLabel="EspritCombatif.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Courir.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Courir.java" index="8">
-<position info="not_deleted" x="62" y="11"/>
-</item>
-<item historyLabel="Deplacement.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Personnage.java" index="4">
-<position info="not_deleted" x="685" y="0"/>
-</item>
-<item historyLabel="Personnage.java" index="4">
-<position info="not_deleted" x="624" y="0"/>
-</item>
-<item historyLabel="Personnage.java" index="4">
-<position info="not_deleted" x="317" y="0"/>
-</item>
-<item historyLabel="AucunSoin.java" index="3">
-<position info="not_deleted" x="65" y="4"/>
-</item>
-<item historyLabel="test.java" index="10">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="Solo.java" index="11">
-<position info="not_deleted" x="505" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="516" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="429" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="48" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="520" y="0"/>
-</item>
-<item historyLabel="Solo.java" index="11">
-<position info="not_deleted" x="505" y="0"/>
-</item>
-<item historyLabel="Duo.java" index="13">
-<position info="not_deleted" x="876" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="520" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position/>
-</item>
-<item historyLabel="Main.java" index="12">
-<position info="not_deleted" x="839" y="0"/>
-</item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="738" y="0"/>
 </item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="72" y="790"/>
 </item>
-<item historyLabel="Garage.java" index="14">
+<item historyLabel="Garage.java" index="1">
 <position info="not_deleted" x="359" y="0"/>
 </item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="516" y="0"/>
 </item>
-<item historyLabel="Garage.java" index="14">
+<item historyLabel="Garage.java" index="1">
 <position info="not_deleted" x="359" y="0"/>
 </item>
-<item historyLabel="Garage.java" index="14">
+<item historyLabel="Garage.java" index="1">
 <position info="not_deleted" x="81" y="7"/>
 </item>
-<item historyLabel="Voiture.java" index="15">
+<item historyLabel="Voiture.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="516" y="0"/>
 </item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="218" y="0"/>
 </item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="227" y="17"/>
 </item>
-<item historyLabel="VoitureSansPermis.java" index="16">
+<item historyLabel="VoitureSansPermis.java" index="3">
 <position info="not_deleted" x="47" y="0"/>
 </item>
-<item historyLabel="Garage.java" index="14">
+<item historyLabel="Garage.java" index="1">
 <position info="not_deleted" x="81" y="7"/>
 </item>
-<item historyLabel="Main.java" index="12">
+<item historyLabel="Main.java" index="0">
 <position info="not_deleted" x="227" y="17"/>
 </item>
-<item historyLabel="test.txt" index="17">
+<item historyLabel="test.txt" index="4">
 <position info="not_deleted" x="105" y="0"/>
 </item>
-<item historyLabel="Main.java" index="18">
+<item historyLabel="Main.java" index="5">
 <position info="not_deleted" x="2740" y="0"/>
 </item>
-<item active="true" historyLabel="Main.java" index="18">
-<position info="not_deleted" x="944" y="1"/>
+<item historyLabel="Main.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="test.txt" index="6"/>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1548" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="383" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1548" y="0"/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1548" y="0"/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1555" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="563" y="0"/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1548" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1549" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="861" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="942" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1212" y="0"/>
+</item>
+<item historyLabel="P2C1_premiere_classe.java" index="7">
+<position info="not_deleted" x="1548" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1212" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="309" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1466" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1494" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1584" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1788" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1748" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="2053" y="0"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position info="not_deleted" x="1846" y="11"/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position/>
+</item>
+<item historyLabel="Ville.java" index="8">
+<position/>
+</item>
+<item active="true" historyLabel="Ville.java" index="8">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -470,6 +455,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ville.java" tooltip="P2C1_premiere_classe/src/Ville.java">
+<persistable path="/P2C1_premiere_classe/src/Ville.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C1_premiere_classe.java" tooltip="P2C1_premiere_classe/src/P2C1_premiere_classe.java">
+<persistable path="/P2C1_premiere_classe/src/P2C1_premiere_classe.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="IO/src/Main.java">
 <persistable path="/IO/src/Main.java"/>
 </file>
@@ -508,12 +499,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pacifiste.java" tooltip="Patern_Strategy/src/com/sdz/comportement/Pacifiste.java">
 <persistable path="/Patern_Strategy/src/com/sdz/comportement/Pacifiste.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Soin.java" tooltip="Patern_Strategy/src/com/sdz/comportement/Soin.java">
-<persistable path="/Patern_Strategy/src/com/sdz/comportement/Soin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Personnage.java" tooltip="Patern_Strategy/src/Personnage.java">
-<persistable path="/Patern_Strategy/src/Personnage.java"/>
 </file>
 </mruList>
 </workbench>
