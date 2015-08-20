@@ -1,4 +1,5 @@
-public class Ville {
+public class Ville implements Comparable<Ville> {
+	private static final String TEST = "Test";
 	// Stocke le nom de notre ville
 	private String nomVille;
 	// Stocke le nom du pays de notre ville
@@ -10,95 +11,104 @@ public class Ville {
 
 	// ****** CONSTRUCTEURS ******
 
-	// Constructeur par défaut
+
+	/**
+	 * 
+	 */
 	public Ville() {
 		System.out.println("Création d'une ville !");
 		nomVille = "Inconnu";
 		nomPays = "Inconnu";
 		nbreHabitants = 0;
-		this.setCategorie();
+
 	}
 
-	// Constructueur avec paramètres
+
+	/**
+	 * @param pNom
+	 * @param pNbre
+	 * @param pPays
+	 */
 	public Ville(String pNom, int pNbre, String pPays) {
 		System.out.println("Création d'une ville avec des paramètres !");
 		nomVille = pNom;
 		nomPays = pPays;
 		nbreHabitants = pNbre;
-		this.setCategorie();
+		System.out.println(TEST);
+		System.out.println(TEST);
 
 	}
 
-	// ****** ACCESSEURS ******
-
-	// Retourne le nom de la ville
-	public String getNom() {
+	/**
+	 * @return the nomVille
+	 */
+	public String getNomVille() {
 		return nomVille;
 	}
 
-	// Retourne le nom du pays
+	/**
+	 * @param nomVille the nomVille to set
+	 */
+	public void setNomVille(String nomVille) {
+		this.nomVille = nomVille;
+	}
+
+	/**
+	 * @return the nomPays
+	 */
 	public String getNomPays() {
 		return nomPays;
 	}
 
-	// Retourne le nombre d'habitants
-	public int getNombreHabitants() {
+	/**
+	 * @param nomPays the nomPays to set
+	 */
+	public void setNomPays(String nomPays) {
+		this.nomPays = nomPays;
+	}
+
+	/**
+	 * @return the nbreHabitants
+	 */
+	public int getNbreHabitants() {
 		return nbreHabitants;
 	}
 
-	// ****** MUTATEURS ******
-
-	// Définit le nom de la ville
-	public void setNom(String pNom) {
-		nomVille = pNom;
+	/**
+	 * @param nbreHabitants the nbreHabitants to set
+	 */
+	public void setNbreHabitants(int nbreHabitants) {
+		this.nbreHabitants = nbreHabitants;
 	}
 
-	// Définit le nom du pays
-	public void setNomPays(String pPays) {
-		nomPays = pPays;
+	/**
+	 * @return the categorie
+	 */
+	public char getCategorie() {
+		return categorie;
 	}
 
-	// Définit le nombre d'habitants
-	public void setNombreHabitants(int nbre) {
-		nbreHabitants = nbre;
-		this.setCategorie();
+	/**
+	 * @param categorie the categorie to set
+	 */
+	public void setCategorie(char categorie) {
+		this.categorie = categorie;
 	}
 
-	// Définit la catégorie de la ville
-	public void setCategorie() {
-		int bornesSuperieures[] = { 0, 1000, 10000, 100000, 500000, 1000000,
-				5000000, 10000000 };
-		char categories[] = { '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
-
-		int i = 0;
-		while (i < bornesSuperieures.length
-				&& this.nbreHabitants > bornesSuperieures[i]) {
-			i++;
-		}
-		this.categorie = categories[i];
+	/* (non-Javadoc)
+	 * @see java.lang.Comparable#compareTo(java.lang.Object)
+	 */
+	@Override
+	public int compareTo(Ville o) {
+		return this.nomVille.compareTo(o.nomVille);
 	}
-
-	// Retourne la description de la ville
-	public String decrisToi() {
-		return "\t" + this.nomVille + " est une ville de " + this.nomPays
-				+ ", elle comporte : " + this.nbreHabitants
-				+ " habitant(s) => elle est donc de catégorie : "
-				+ this.categorie;
-	}
-
-	// Retourne une chaîne de caractères selon le résultat de la comparaison
-	public String comparer(Ville v1) {
-		String str = new String();
-
-		if (v1.getNombreHabitants() > this.nbreHabitants)
-			str = v1.getNom() + " est une ville plus peuplée que "
-					+ this.nomVille;
-
-		else
-			str = this.nomVille + " est une ville plus peuplée que "
-					+ v1.getNom();
-
-		return str;
+	
+	/**
+	 * LOL test
+	 * @return
+	 */
+	public String test(){
+		return "test";
 	}
 
 }

@@ -1,40 +1,39 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class P2C1_premiere_classe {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
-		Ville v = new Ville();
-		Ville v1 = new Ville("Marseille", 123456, "France");       
-		Ville v2 = new Ville("Rio", 321654, "Brésil");
+	public static void main(String[] args) {
+		Ville ville1 = new Ville("Lyon", 654, "France");
+		Ville ville2 = new Ville("Lille", 123, "France");
+		Ville ville3 = new Ville("Arras", 123, "France");
 
-		System.out.println("\n v = "+v.getNom()+" ville de  "+v.getNombreHabitants()+ " habitants se situant en "+v.getNomPays());
-		System.out.println(" v1 = "+v1.getNom()+" ville de  "+v1.getNombreHabitants()+ " habitants se situant en "+v1.getNomPays());
-		System.out.println(" v2 = "+v2.getNom()+" ville de  "+v2.getNombreHabitants()+ " habitants se situant en "+v2.getNomPays()+"\n\n");
-		        
-		/*
-		  Nous allons interchanger les Villes v1 et v2
-		  tout ça par l'intermédiaire d'un autre objet Ville.        
-		*/       
-		Ville temp = new Ville();
-		temp = v1;
-		v1 = v2;
-		v2 = temp;
-		       
-		System.out.println(" v1 = "+v1.getNom()+" ville de  "+v1.getNombreHabitants()+ " habitants se situant en "+v1.getNomPays());
-		System.out.println(" v2 = "+v2.getNom()+" ville de  "+v2.getNombreHabitants()+ " habitants se situant en "+v2.getNomPays()+"\n\n");
+		List<Ville> listeVille = new ArrayList<Ville>();
 
-		/*       
-		  Nous allons maintenant interchanger leurs noms
-		  cette fois par le biais de leurs mutateurs.
-		*/   
-		v1.setNom("Hong Kong");
-		v2.setNom("Djibouti");
-		      
-		System.out.println(" v1 = "+v1.getNom()+" ville de  "+v1.getNombreHabitants()+ " habitants se situant en "+v1.getNomPays());
-		System.out.println(" v2 = "+v2.getNom()+" ville de  "+v2.getNombreHabitants()+ " habitants se situant en "+v2.getNomPays()+"\n\n");
+		listeVille.add(ville1);
+		listeVille.add(ville2);
+		listeVille.add(ville3);
+
+		for (Ville ville : listeVille) {
+			System.out.println(ville.getNomVille());
+		}
+
+		Collections.sort(listeVille);
+
+		System.out.println("Triage");
+
+		for (Ville ville : listeVille) {
+			System.out.println(ville.getNomVille());
+		}
+		
+		System.out.println(ville2.compareTo(ville1));
+		
+		Ville c = new VilleCompliquer();
+		System.out.println(c.test());
 
 	}
 
