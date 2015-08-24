@@ -1064,3 +1064,12 @@ Java Model Exception: Java Model Status [Timed out while retrieving the attached
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1012 2015-08-20 13:36:20.533
 !MESSAGE Timed out while retrieving the attached javadoc for Collections [in Collections.class [in java.util [in /usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar]]] 
+!SESSION 2015-08-24 13:12:42.072 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-08-24 13:12:48.716
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

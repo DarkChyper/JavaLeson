@@ -1,0 +1,51 @@
+public class Ville implements Comparable<Ville> {
+	private static final String TEST = "Test";
+	// Stocke le nom de notre ville
+	private String nomVille;
+	// Stocke le nom du pays de notre ville
+	private String nomPays;
+	// Stocke le nombre d'habitants de notre ville
+	private int nbreHabitants;
+	// Catégorie de la ville en fonction du nombre d'habitants
+	private char categorie;
+
+	// ****** CONSTRUCTEURS ******
+
+	// Constructeur par défaut
+	public Ville() {
+		System.out.println("Création d'une ville !");
+		nomVille = "Inconnu";
+		nomPays = "Inconnu";
+		nbreHabitants = 0;
+
+	}
+
+	// Constructueur avec paramètres
+	public Ville(String pNom, int pNbre, String pPays) {
+		System.out.println("Création d'une ville avec des paramètres !");
+		nomVille = pNom;
+		nomPays = pPays;
+		nbreHabitants = pNbre;
+		System.out.println(TEST);
+		System.out.println(TEST);
+
+	}
+
+
+	/* (non-Javadoc)
+	 * @see java.lang.Comparable#compareTo(java.lang.Object)
+	 */
+	@Override
+	public int compareTo(Ville o) {
+		return this.nomVille.compareTo(o.nomVille);
+	}
+	
+	/**
+	 * LOL test
+	 * @return
+	 */
+	public String test(){
+		return "test";
+	}
+
+}

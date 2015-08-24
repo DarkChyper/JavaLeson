@@ -1,0 +1,121 @@
+public class Ville implements Comparable<Ville> {
+	// Stocke le nom de notre ville
+	private String nomVille;
+	// Stocke le nom du pays de notre ville
+	private String nomPays;
+	// Stocke le nombre d'habitants de notre ville
+	private int nbreHabitants;
+	// Catégorie de la ville en fonction du nombre d'habitants
+	private char categorie;
+
+	// ****** CONSTRUCTEURS ******
+
+	// Constructeur par défaut
+	public Ville() {
+		System.out.println("Création d'une ville !");
+		nomVille = "Inconnu";
+		nomPays = "Inconnu";
+		nbreHabitants = 0;
+		this.setCategorie();
+	}
+
+	// Constructueur avec paramètres
+	public Ville(String pNom, int pNbre, String pPays) {
+		System.out.println("Création d'une ville avec des paramètres !");
+		nomVille = pNom;
+		nomPays = pPays;
+		nbreHabitants = pNbre;
+		this.setCategorie();
+
+	}
+
+	// ****** ACCESSEURS ******
+
+	// Définit la catégorie de la ville
+	public void setCategorie() {
+		int bornesSuperieures[] = { 0, 1000, 10000, 100000, 500000, 1000000,
+				5000000, 10000000 };
+		char categories[] = { '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
+
+		int i = 0;
+		while (i < bornesSuperieures.length
+				&& this.nbreHabitants > bornesSuperieures[i]) {
+			i++;
+		}
+		this.categorie = categories[i];
+	}
+
+	/**
+	 * @return the nomVille
+	 */
+	public String getNomVille() {
+		return nomVille;
+	}
+
+	/**
+	 * @param nomVille
+	 *            the nomVille to set
+	 */
+	public void setNomVille(String nomVille) {
+		this.nomVille = nomVille;
+	}
+
+	/**
+	 * @return the nomPays
+	 */
+	public String getNomPays() {
+		return nomPays;
+	}
+
+	/**
+	 * @param nomPays
+	 *            the nomPays to set
+	 */
+	public void setNomPays(String nomPays) {
+		this.nomPays = nomPays;
+	}
+
+	/**
+	 * @return the nbreHabitants
+	 */
+	public int getNbreHabitants() {
+		return nbreHabitants;
+	}
+
+	/**
+	 * @param nbreHabitants
+	 *            the nbreHabitants to set
+	 */
+	public void setNbreHabitants(int nbreHabitants) {
+		this.nbreHabitants = nbreHabitants;
+	}
+
+	/**
+	 * @return the categorie
+	 */
+	public char getCategorie() {
+		return categorie;
+	}
+
+	/**
+	 * @param categorie
+	 *            the categorie to set
+	 */
+	public void setCategorie(final char categorie) {
+		this.categorie = categorie;
+	}
+
+	// Retourne la description de la ville
+	public String decrisToi() {
+		return "\t" + this.nomVille + " est une ville de " + this.nomPays
+				+ ", elle comporte : " + this.nbreHabitants
+				+ " habitant(s) => elle est donc de catégorie : "
+				+ this.categorie;
+	}
+
+	@Override
+	public int compareTo(Ville o) {
+		return this.nomVille.compareTo(o.nomVille);
+	}
+
+}

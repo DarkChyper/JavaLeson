@@ -1,0 +1,16 @@
+
+/**
+ * Capitale est une Ville mais qui contient un attribut monument
+ * @author dark
+ * 
+ */
+public class Capitale extends Ville {
+
+	private String monument;
+	
+	public Capitale(){
+		super();
+		monument = "aucun";
+	}
+	
+}

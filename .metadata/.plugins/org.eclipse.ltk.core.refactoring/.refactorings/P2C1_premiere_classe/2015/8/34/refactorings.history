@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract constant &apos;TEST&apos; from expression &apos;&quot;Test&quot;&apos;&#x0A;- Original project: &apos;P2C1_premiere_classe&apos;&#x0A;- Constant name: &apos;TEST&apos;&#x0A;- Constant expression: &apos;&quot;Test&quot;&apos;&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Replace occurrences of expression with constant" description="Extract constant &apos;TEST&apos;" flags="786432" id="org.eclipse.jdt.ui.extract.constant" input="/src&lt;{Ville.java" name="TEST" qualify="false" replace="true" selection="829 6" stamp="1440071633653" version="1.0" visibility="2"/>
+</session>

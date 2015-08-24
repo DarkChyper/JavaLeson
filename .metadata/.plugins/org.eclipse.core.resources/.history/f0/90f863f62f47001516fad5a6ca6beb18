@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class P2C1_premiere_classe {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Ville V = new Ville("Lyon", 654, "France");
+		Ville V2 = new Ville("Lille", 123, "France");
+		Ville V3 = new Ville("Arras", 123, "France");
+
+		List<Ville> listeVille = new ArrayList<Ville>();
+
+		listeVille.add(V);
+		listeVille.add(V2);
+		listeVille.add(V3);
+
+		for (Ville ville : listeVille) {
+			System.out.println(ville.getNomVille());
+		}
+
+		Collections.sort(listeVille);
+
+		System.out.println("Triage");
+
+		for (Ville ville : listeVille) {
+			System.out.println(ville.getNomVille());
+		}
+
+	}
+
+}

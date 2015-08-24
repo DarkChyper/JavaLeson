@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;P2C2_L-héritage/src/(default package)&apos;&#x0A;- Original project: &apos;P2C1_premiere_classe&apos;&#x0A;- Destination element: &apos;P2C2_L-héritage/src/(default package)&apos;&#x0A;- Original elements:&#x0A;     VilleCompliquer.java&#x0A;     Ville.java" description="Copy compilation units" destination="=P2C2_L-héritage/src&lt;" element1="/src&lt;{VilleCompliquer.java" element2="/src&lt;{Ville.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1440413417530" units="2" version="1.0"/>
+</session>

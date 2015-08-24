@@ -1,13 +1,19 @@
 public class Ville implements Comparable<Ville> {
-	private static final String TEST = "Test";
+	protected static final String TEST = "Test";
 	// Stocke le nom de notre ville
-	private String nomVille;
+	protected String nomVille;
 	// Stocke le nom du pays de notre ville
-	private String nomPays;
+	protected String nomPays;
 	// Stocke le nombre d'habitants de notre ville
-	private int nbreHabitants;
+	protected int nbreHabitants;
 	// Catégorie de la ville en fonction du nombre d'habitants
-	private char categorie;
+	protected char categorie;
+	
+	// Variable publique qui compte les instances
+	public static int nbreInstances = 0;
+	
+	// Variable privée qui comptera aussi les instances
+	protected static int nbreInstancesBis = 0;
 
 	// ****** CONSTRUCTEURS ******
 
@@ -17,10 +23,44 @@ public class Ville implements Comparable<Ville> {
 	 */
 	public Ville() {
 		System.out.println("Création d'une ville !");
+		nbreInstances++;
+	    nbreInstancesBis++; 
 		nomVille = "Inconnu";
 		nomPays = "Inconnu";
 		nbreHabitants = 0;
 
+	}
+
+
+	/**
+	 * @return the nbreInstances
+	 */
+	public static int getNbreInstances() {
+		return nbreInstances;
+	}
+
+
+	/**
+	 * @param nbreInstances the nbreInstances to set
+	 */
+	public static void setNbreInstances(int nbreInstances) {
+		Ville.nbreInstances = nbreInstances;
+	}
+
+
+	/**
+	 * @return the nbreInstancesBis
+	 */
+	public static int getNbreInstancesBis() {
+		return nbreInstancesBis;
+	}
+
+
+	/**
+	 * @param nbreInstancesBis the nbreInstancesBis to set
+	 */
+	public static void setNbreInstancesBis(int nbreInstancesBis) {
+		Ville.nbreInstancesBis = nbreInstancesBis;
 	}
 
 
@@ -31,6 +71,8 @@ public class Ville implements Comparable<Ville> {
 	 */
 	public Ville(String pNom, int pNbre, String pPays) {
 		System.out.println("Création d'une ville avec des paramètres !");
+		nbreInstances++;
+	    nbreInstancesBis++; 
 		nomVille = pNom;
 		nomPays = pPays;
 		nbreHabitants = pNbre;

@@ -1,0 +1,16 @@
+
+/**
+ * @author dark
+ * {@docRoot}
+ * @explain :apitale est une Ville mais qui contient un attribut monument
+ */
+public class Capitale extends Ville {
+
+	private String monument;
+	
+	public Capitale(){
+		super();
+		monument = "aucun";
+	}
+	
+}

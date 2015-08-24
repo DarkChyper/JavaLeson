@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+
+/**
+ * @author dark
+ *
+ */
+public class VilleCompliquer extends Ville{
+	
+	@Override
+	public String test(){
+		return "testCompliquer";
+	}
+
+}

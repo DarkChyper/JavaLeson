@@ -1,0 +1,15 @@
+
+/**
+ * @author dark
+ *
+ */
+public class Capitale extends Ville {
+
+	private String monument;
+	
+	// Constructeur par défaut
+	public Capitale(){
+		super();
+		monument = "aucun";
+	}
+}
