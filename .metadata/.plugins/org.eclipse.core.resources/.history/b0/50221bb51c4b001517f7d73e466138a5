@@ -1,0 +1,15 @@
+
+public class P2C5 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Animal loup = new Loup();
+		Animal chien = new Chien();
+		loup.toString();
+		chien.manger();
+
+	}
+
+}

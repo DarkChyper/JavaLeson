@@ -1,0 +1,14 @@
+
+public abstract class Animal {
+	
+	protected String couleur;
+	protected int poids;
+	
+	protected void manger(){
+		System.out.println("Je mange de la viande.");
+	}
+
+	protected void boire(){
+		System.out.println("Je bois de l'eau.");
+	}
+}
