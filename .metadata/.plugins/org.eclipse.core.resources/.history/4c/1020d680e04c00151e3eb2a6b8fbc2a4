@@ -70,13 +70,8 @@ public class Ville implements Comparable<Ville> {
 	 * @param pNbre
 	 * @param pPays
 	 */
-	public Ville(String pNom, int pNbre, String pPays)
-		throws NombreHabitantsException 
-	{
-		if(pNbre < 0 )
-			throw new NombreHabitantsException();
-		else
-		{
+	public Ville(String pNom, int pNbre, String pPays) {
+		System.out.println("Création d'une ville avec des paramètres !");
 		nbreInstances++;
 	    nbreInstancesBis++; 
 		nomVille = pNom;
@@ -85,7 +80,6 @@ public class Ville implements Comparable<Ville> {
 		System.out.println(TEST);
 		System.out.println(TEST);
 
-		}
 	}
 
 	/**

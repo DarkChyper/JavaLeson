@@ -16,7 +16,7 @@ public class Capitale extends Ville {
 	
 	// Constructeur complet 
 	  //Constructeur d'initialisation de capitale
-	  public Capitale(String nom, int hab, String pays, String monument) throws NombreHabitantsException{
+	  public Capitale(String nom, int hab, String pays, String monument){
 	    super(nom, hab, pays);
 	    this.monument = monument;
 	  }  

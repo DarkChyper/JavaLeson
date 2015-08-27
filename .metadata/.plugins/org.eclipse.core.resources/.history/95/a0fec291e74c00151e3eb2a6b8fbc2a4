@@ -1,0 +1,7 @@
+
+public class Langage {
+	JAVA,
+	C,
+	CPlus,
+	PHP;
+}
