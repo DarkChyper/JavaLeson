@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
-<window height="750" maximized="true" width="683" x="0" y="18">
+<window height="1032" maximized="true" width="840" x="0" y="18">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="146"/>
@@ -14,11 +14,11 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -33,13 +33,28 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C6_EXCEPTIONS.java" partName="P2C6_EXCEPTIONS.java" path="/home/dark/Scripts/java/JavaLeson/P2C6_Exceptions/src/P2C6_EXCEPTIONS.java" title="P2C6_EXCEPTIONS.java" tooltip="P2C6_Exceptions/src/P2C6_EXCEPTIONS.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C6_Exceptions/src/P2C6_EXCEPTIONS.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="257" selectionTopPixel="25"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C10_io.java" partName="P2C10_io.java" path="/home/dark/Scripts/java/JavaLeson/P2C10_io/src/P2C10_io.java" title="P2C10_io.java" tooltip="P2C10_io/src/P2C10_io.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C10_io/src/P2C10_io.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="518" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" path="/home/dark/Scripts/java/JavaLeson/P2C10_io/test.txt" title="test.txt" tooltip="P2C10_io/test.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C10_io/test.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="61" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="imbrication de input" partName="imbrication de input" path="/home/dark/Scripts/java/JavaLeson/P2C10_io/imbrication de input" title="imbrication de input" tooltip="P2C10_io/imbrication de input" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C10_io/imbrication de input"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="401" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="finaly" partName="finaly" path="/home/dark/Scripts/java/JavaLeson/P2C10_io/finaly" title="finaly" tooltip="P2C10_io/finaly" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/P2C10_io/finaly"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="503" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -241,7 +256,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2611658" ratioLeft="345" ratioRight="976" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.27295598" ratioLeft="217" ratioRight="578" relationship="2" relative="left"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@140e701" ratio="0.31133673" ratioLeft="184" ratioRight="407" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -276,170 +291,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Animal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/P2C5.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Chien.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Loup.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Felin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Canin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Chien.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Loup.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Lion.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Tigre.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Chat.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/P2C5.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C5_classes_abstraites_interfaces/src/Rintintin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C6_Exceptions/src/P2C6_EXCEPTIONS.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C9_Generecite/src/P2C9.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C9_Generecite/src/Voiture.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C9_Generecite/src/VoitureSansPermis.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C9_Generecite/src/Garage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/P2C10_io/src/P2C10_io.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/P2C10_io/src/test.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/P2C10_io/imbrication de input"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/P2C10_io/test.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/P2C10_io/finaly"/>
 </editors>
-<item historyLabel="Loup.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="258" y="0"/>
 </item>
-<item historyLabel="Chien.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="P2C5.java" index="1">
-<position info="not_deleted" x="110" y="4"/>
-</item>
-<item historyLabel="Chien.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="P2C5.java" index="1">
-<position info="not_deleted" x="110" y="4"/>
-</item>
-<item historyLabel="Chien.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="P2C5.java" index="1">
-<position info="not_deleted" x="110" y="4"/>
-</item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="159" y="0"/>
-</item>
-<item historyLabel="Animal.java" index="0">
+<item historyLabel="Voiture.java" index="1">
 <position/>
 </item>
-<item historyLabel="Animal.java" index="0">
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="Voiture.java" index="1">
 <position/>
 </item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="159" y="0"/>
-</item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="108" y="0"/>
-</item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="156" y="0"/>
-</item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="183" y="0"/>
-</item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="261" y="0"/>
-</item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="538" y="0"/>
-</item>
-<item historyLabel="Felin.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Felin.java" index="4">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="Canin.java" index="5">
-<position info="not_deleted" x="184" y="0"/>
-</item>
-<item historyLabel="Felin.java" index="4">
-<position info="not_deleted" x="75" y="69"/>
-</item>
-<item historyLabel="Canin.java" index="5">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="Chien.java" index="6">
+<item historyLabel="Voiture.java" index="1">
 <position/>
 </item>
-<item historyLabel="Loup.java" index="7">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="Lion.java" index="8">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Tigre.java" index="9">
-<position info="not_deleted" x="27" y="221"/>
-</item>
-<item historyLabel="Lion.java" index="8">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Loup.java" index="7">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="Lion.java" index="8">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Chat.java" index="10">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Lion.java" index="8">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Loup.java" index="7">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="Lion.java" index="8">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Chat.java" index="10">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="Tigre.java" index="9">
-<position info="not_deleted" x="27" y="221"/>
-</item>
-<item historyLabel="Chien.java" index="6">
+<item historyLabel="P2C9.java" index="0">
 <position/>
 </item>
-<item historyLabel="Canin.java" index="5">
-<position info="not_deleted" x="174" y="0"/>
+<item historyLabel="VoitureSansPermis.java" index="2">
+<position info="not_deleted" x="99" y="0"/>
 </item>
-<item historyLabel="Felin.java" index="4">
-<position info="not_deleted" x="148" y="0"/>
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="36" y="0"/>
 </item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="538" y="0"/>
+<item historyLabel="VoitureSansPermis.java" index="2">
+<position info="not_deleted" x="99" y="0"/>
 </item>
-<item historyLabel="P2C5.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="P2C9.java" index="0">
+<position/>
 </item>
-<item historyLabel="P2C5.java" index="11">
-<position info="not_deleted" x="239" y="0"/>
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="36" y="0"/>
 </item>
-<item historyLabel="Rintintin.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="P2C9.java" index="0">
+<position/>
 </item>
-<item historyLabel="Rintintin.java" index="12">
-<position info="not_deleted" x="54" y="0"/>
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="541" y="0"/>
 </item>
-<item historyLabel="Rintintin.java" index="12">
-<position info="not_deleted" x="86" y="0"/>
+<item historyLabel="VoitureSansPermis.java" index="2">
+<position info="not_deleted" x="99" y="0"/>
 </item>
-<item historyLabel="Rintintin.java" index="12">
-<position info="not_deleted" x="116" y="0"/>
+<item historyLabel="P2C9.java" index="0">
+<position info="not_deleted" x="193" y="0"/>
 </item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="538" y="0"/>
+<item historyLabel="Garage.java" index="3">
+<position info="not_deleted" x="361" y="0"/>
 </item>
-<item historyLabel="Chien.java" index="6">
-<position info="not_deleted" x="523" y="0"/>
+<item historyLabel="P2C9.java" index="0">
+<position/>
 </item>
-<item historyLabel="P2C5.java" index="11">
-<position info="not_deleted" x="205" y="0"/>
+<item historyLabel="Garage.java" index="3">
+<position info="not_deleted" x="361" y="0"/>
 </item>
-<item historyLabel="Chien.java" index="6">
-<position info="not_deleted" x="523" y="0"/>
+<item historyLabel="P2C9.java" index="0">
+<position info="not_deleted" x="498" y="0"/>
 </item>
-<item historyLabel="Animal.java" index="0">
-<position info="not_deleted" x="538" y="0"/>
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="185" y="0"/>
 </item>
-<item active="true" historyLabel="P2C6_EXCEPTIONS.java" index="13">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Garage.java" index="3">
+<position info="not_deleted" x="361" y="0"/>
+</item>
+<item historyLabel="P2C9.java" index="0">
+<position info="not_deleted" x="666" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="3">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="VoitureSansPermis.java" index="2">
+<position info="not_deleted" x="305" y="0"/>
+</item>
+<item historyLabel="P2C9.java" index="0">
+<position info="not_deleted" x="666" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="3">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="P2C9.java" index="0">
+<position info="not_deleted" x="666" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="3">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="P2C9.java" index="0">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="Voiture.java" index="1">
+<position info="not_deleted" x="185" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position info="not_deleted" x="1676" y="0"/>
+</item>
+<item historyLabel="test.txt" index="5">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position info="not_deleted" x="1676" y="0"/>
+</item>
+<item historyLabel="test.txt" index="5">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="test.txt" index="5">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="test.txt" index="5">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="imbrication de input" index="6">
+<position info="not_deleted" x="401" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position info="not_deleted" x="1561" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position/>
+</item>
+<item historyLabel="test.txt" index="5">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="test.txt" index="7">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="P2C10_io.java" index="4">
+<position info="not_deleted" x="518" y="0"/>
+</item>
+<item active="true" historyLabel="finaly" index="8">
+<position info="not_deleted" x="503" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -461,6 +471,39 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="finaly" tooltip="P2C10_io/finaly">
+<persistable path="/P2C10_io/finaly"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="imbrication de input" tooltip="P2C10_io/imbrication de input">
+<persistable path="/P2C10_io/imbrication de input"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="P2C10_io/src/test.txt">
+<persistable path="/P2C10_io/src/test.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C10_io.java" tooltip="P2C10_io/src/P2C10_io.java">
+<persistable path="/P2C10_io/src/P2C10_io.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Garage.java" tooltip="P2C9_Generecite/src/Garage.java">
+<persistable path="/P2C9_Generecite/src/Garage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C9.java" tooltip="P2C9_Generecite/src/P2C9.java">
+<persistable path="/P2C9_Generecite/src/P2C9.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ville.java" tooltip="P2C1_premiere_classe/src/Ville.java">
+<persistable path="/P2C1_premiere_classe/src/Ville.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VoitureSansPermis.java" tooltip="P2C9_Generecite/src/VoitureSansPermis.java">
+<persistable path="/P2C9_Generecite/src/VoitureSansPermis.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Voiture.java" tooltip="P2C9_Generecite/src/Voiture.java">
+<persistable path="/P2C9_Generecite/src/Voiture.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Duo.java" tooltip="P2C9_Generecite/src/Duo.java">
+<persistable path="/P2C9_Generecite/src/Duo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solo.java" tooltip="P2C9_Generecite/src/Solo.java">
+<persistable path="/P2C9_Generecite/src/Solo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C6_EXCEPTIONS.java" tooltip="P2C6_Exceptions/src/P2C6_EXCEPTIONS.java">
 <persistable path="/P2C6_Exceptions/src/P2C6_EXCEPTIONS.java"/>
 </file>
@@ -472,39 +515,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C5.java" tooltip="P2C5_classes_abstraites_interfaces/src/P2C5.java">
 <persistable path="/P2C5_classes_abstraites_interfaces/src/P2C5.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Chat.java" tooltip="P2C5_classes_abstraites_interfaces/src/Chat.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Chat.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tigre.java" tooltip="P2C5_classes_abstraites_interfaces/src/Tigre.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Tigre.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lion.java" tooltip="P2C5_classes_abstraites_interfaces/src/Lion.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Lion.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loup.java" tooltip="P2C5_classes_abstraites_interfaces/src/Loup.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Loup.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Canin.java" tooltip="P2C5_classes_abstraites_interfaces/src/Canin.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Canin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Felin.java" tooltip="P2C5_classes_abstraites_interfaces/src/Felin.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Felin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Animal.java" tooltip="P2C5_classes_abstraites_interfaces/src/Animal.java">
-<persistable path="/P2C5_classes_abstraites_interfaces/src/Animal.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P2C2_L_heritage.java" tooltip="P2C2_L-héritage/src/P2C2_L_heritage.java">
-<persistable path="/P2C2_L-héritage/src/P2C2_L_heritage.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Capitale.java" tooltip="P2C2_L-héritage/src/Capitale.java">
-<persistable path="/P2C2_L-héritage/src/Capitale.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VilleCompliquer.java" tooltip="P2C1_premiere_classe/src/VilleCompliquer.java">
-<persistable path="/P2C1_premiere_classe/src/VilleCompliquer.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Comparable.class" tooltip="java.lang.Comparable">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=P2C1_premiere_classe/\/usr\/lib\/jvm\/java-7-openjdk-i386\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class"/>
 </file>
 </mruList>
 </workbench>

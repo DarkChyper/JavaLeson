@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="152" key="clean_up_save_particpant_modify_dialog.preferred_y"/>
+	<item value="560" key="clean_up_save_particpant_modify_dialog.preferred_height"/>
+	<item value="460" key="clean_up_save_particpant_modify_dialog.preferred_x"/>
+	<item value="-1" key="org.eclipse.jdt.uiformatter_page.modify_dialog_tab_page.last_focus_index"/>
+	<item value="861" key="clean_up_save_particpant_modify_dialog.preferred_width"/>
+	<item value="3" key="clean_up_save_particpant_modify_dialog.last_focus"/>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item value="467" key="DIALOG_WIDTH"/>
 		<item value="88" key="DIALOG_Y_ORIGIN"/>
-		<item value="108" key="DIALOG_X_ORIGIN"/>
 		<item value="435" key="DIALOG_HEIGHT"/>
+		<item value="108" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
@@ -12,6 +18,9 @@
 	</section>
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
 	</section>
 	<section name="JavaSearchPage">
 		<item value="false" key="CASE_SENSITIVE"/>
@@ -21,8 +30,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="1" key="VisibilityModifier"/>
 		<item value="true" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
 		<item value="2" key="InsertPosition.v2"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
@@ -58,8 +67,8 @@
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="7" key="DIALOG_Y_ORIGIN"/>
-			<item value="-44" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-44" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -77,16 +86,16 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="474" key="DIALOG_WIDTH"/>
 		<item value="70" key="DIALOG_Y_ORIGIN"/>
-		<item value="680" key="DIALOG_HEIGHT"/>
 		<item value="682" key="DIALOG_X_ORIGIN"/>
+		<item value="680" key="DIALOG_HEIGHT"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-	</section>
-	<section name="RenameInformationPopup">
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
-		<item value="true" key="create_main"/>
-		<item value="true" key="create_unimplemented"/>
+		<item value="false" key="create_unimplemented"/>
+		<item value="false" key="create_main"/>
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
 		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
@@ -102,8 +111,8 @@
 	<section name="JavadocWizardDialog">
 		<item value="516" key="DIALOG_WIDTH"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
-		<item value="91" key="DIALOG_X_ORIGIN"/>
 		<item value="641" key="DIALOG_HEIGHT"/>
+		<item value="91" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
