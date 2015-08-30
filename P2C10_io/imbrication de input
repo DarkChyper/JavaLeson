@@ -1,0 +1,8 @@
+FileInputStream fis = new FileInputStream(new File("toto.txt"));
+DataInputStream dis = new DataInputStream(fis);
+BufferedInputStream bis = new BufferedInputStream(dis);
+//Ou en condensé : 
+BufferedInputStream  bis = new BufferredInputStream(
+                             new DataInputStream(
+                               new FileInputStream(
+                                 new File("toto.txt"))));

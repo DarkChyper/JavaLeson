@@ -1,0 +1,17 @@
+finally {
+         // On ferme nos flux de données dans un bloc finally pour s'assurer
+         // que ces instructions seront exécutées dans tous les cas même si
+         // une exception est levée !
+         try {
+            if (fis != null)
+               fis.close();
+         } catch (IOException e) {
+            e.printStackTrace();
+         }
+
+         try {
+            if (fos != null)
+               fos.close();
+         } catch (IOException e) {
+            e.printStackTrace();
+         }

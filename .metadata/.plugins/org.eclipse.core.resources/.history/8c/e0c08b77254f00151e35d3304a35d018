@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class P2C9 {
+	public static void main(String[] args){
+		  //Liste de voiture
+		  List<Voiture> listVoiture = new ArrayList<Voiture>();
+		  Voiture test = new Voiture();
+		  listVoiture.add(test);
+		  listVoiture.add(new Voiture());
+		  listVoiture.add(new Voiture());
+
+		  List<Object> listVoitureSP = new ArrayList<Object>();
+		  listVoitureSP.add(new Object());
+		  listVoitureSP.add(new Object());
+
+		  affiche(listVoiture);		
+		}
+
+		//Avec cette méthode, on accepte aussi bien les collections de Voiture que les collections d'Object : superclasse de toutes les classes
+
+		static void affiche(List<? super Voiture> list){
+		  for(Object v : list)
+		    System.out.print(v.toString());
+		}
+}

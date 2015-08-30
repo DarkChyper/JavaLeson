@@ -1,0 +1,10 @@
+
+public class Voiture {
+	
+	int compteur = new Integer(0);
+	
+	public Voiture() {
+		
+	}
+
+}

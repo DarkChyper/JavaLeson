@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class P2C9 {
+
+	public static void main(String[] args) {
+        
+		  List<? extends Voiture> listVoitureSP = new ArrayList<VoitureSansPermis>(); 
+		  afficher(listVoitureSP);          
+		}
+		        
+		//Méthode générique !
+		static void afficher(ArrayList<? extends Voiture> list){
+		  for(Voiture v : list)
+		    System.out.println(v.toString());
+		}
+	
+}

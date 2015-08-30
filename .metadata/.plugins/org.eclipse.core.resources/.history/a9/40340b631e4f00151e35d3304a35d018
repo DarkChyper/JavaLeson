@@ -1,0 +1,26 @@
+public class Solo {
+	String valeur = new String();
+
+	public Solo() {
+
+	}
+	
+	public Solo(String val){
+		this.setValeur(val);
+	}
+	/**
+	 * @return the valeur
+	 */
+	public String getValeur() {
+		return valeur;
+	}
+
+	/**
+	 * @param valeur
+	 *            the valeur to set
+	 */
+	public void setValeur(String valeur) {
+		this.valeur = valeur;
+	}
+
+}

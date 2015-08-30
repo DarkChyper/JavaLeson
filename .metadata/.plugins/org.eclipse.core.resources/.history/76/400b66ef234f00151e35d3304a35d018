@@ -1,0 +1,16 @@
+
+public class Voiture {
+	
+	protected String nom;
+	public static int nbreInstances = 0;
+	
+	public Voiture() {
+		nbreInstances++;
+		String numero = new String(Integer.toString(getNbreInstances()));
+		String nom = "Voiture " + numero;
+	}
+
+	public static int getNbreInstances() {
+		return nbreInstances;
+	}
+}
