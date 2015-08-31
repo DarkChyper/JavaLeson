@@ -1,0 +1,10 @@
+
+
+/**
+ * @author dark
+ *
+ */
+public class VoitureSansPermis extends Voiture{
+	
+
+}

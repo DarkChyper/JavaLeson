@@ -1,0 +1,15 @@
+
+public class Voiture {
+	
+	protected String nom;
+	public static int nbreInstances = 0;
+	
+	public Voiture() {
+		nbreInstances++;
+		nom = "Voiture {}",nbreInstances;
+	}
+
+	public static int getNbreInstances() {
+		return nbreInstances;
+	}
+}
