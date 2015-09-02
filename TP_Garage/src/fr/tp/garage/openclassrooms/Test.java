@@ -1,3 +1,8 @@
+package fr.tp.garage.openclassrooms;
+
+import fr.class_vehicules.Vehicule;
+import fr.tp.garage.Garage;
+
 public class Test {
 	public class Main {
 		public static void main(final String[] args) {
