@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="750" maximized="true" width="969" x="0" y="18">
 <fastViewData fastViewLocation="1024"/>
@@ -14,12 +14,12 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="UserSeparator" itemType="typeSeparator"/>
@@ -31,10 +31,46 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/test/Main.java" title="Main.java" tooltip="TP_Garage/src/fr/test/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/test/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="536" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vehicule.java" partName="Vehicule.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/class_vehicules/Vehicule.java" title="Vehicule.java" tooltip="TP_Garage/src/fr/class_vehicules/Vehicule.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/class_vehicules/Vehicule.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="561" selectionTopPixel="65"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurElectrique.java" partName="MoteurElectrique.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/class_typemoteur/MoteurElectrique.java" title="MoteurElectrique.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurElectrique.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/class_typemoteur/MoteurElectrique.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="334" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurDiesel.java" partName="MoteurDiesel.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/class_typemoteur/MoteurDiesel.java" title="MoteurDiesel.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurDiesel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/class_typemoteur/MoteurDiesel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="30" selectionOffset="293" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurEssence.java" partName="MoteurEssence.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/class_typemoteur/MoteurEssence.java" title="MoteurEssence.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurEssence.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/class_typemoteur/MoteurEssence.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="228" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurHybride.java" partName="MoteurHybride.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/class_typemoteur/MoteurHybride.java" title="MoteurHybride.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurHybride.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/class_typemoteur/MoteurHybride.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="219" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Garage.java" partName="Garage.java" path="/home/dark/Scripts/java/JavaLeson/TP_Garage/src/fr/tp/garage/Garage.java" title="Garage.java" tooltip="TP_Garage/src/fr/tp/garage/Garage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP_Garage/src/fr/tp/garage/Garage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="391" selectionTopPixel="13"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -237,7 +273,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.33874458" ratioLeft="313" ratioRight="611" relationship="2" relative="left"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@140e701" ratio="0.77834177" ratioLeft="460" ratioRight="131" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@140e701" ratio="0.7258567" ratioLeft="466" ratioRight="176" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -269,7 +305,169 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/tp/garage/openclassrooms/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/class_vehicules/Vehicule.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/class_typemoteur/MoteurElectrique.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/class_typemoteur/MoteurDiesel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/class_typemoteur/MoteurEssence.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/class_typemoteur/MoteurHybride.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/tp/garage/Garage.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" org.eclipse.jdt.ui.ClassFileIdentifier="=TP_Garage/\/usr\/lib\/jvm\/java-7-openjdk-i386\/jre\/lib\/rt.jar&lt;java.util(List.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TP_Garage/src/fr/test/Main.java"/>
+</editors>
+<item historyLabel="MoteurDiesel.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MoteurElectrique.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MoteurElectrique.java" index="2">
+<position info="not_deleted" x="124" y="16"/>
+</item>
+<item historyLabel="MoteurElectrique.java" index="2">
+<position/>
+</item>
+<item historyLabel="MoteurElectrique.java" index="2">
+<position info="not_deleted" x="229" y="0"/>
+</item>
+<item historyLabel="MoteurDiesel.java" index="3">
+<position info="not_deleted" x="293" y="30"/>
+</item>
+<item historyLabel="MoteurElectrique.java" index="2">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="MoteurEssence.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MoteurEssence.java" index="4">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="MoteurEssence.java" index="4">
+<position info="not_deleted" x="325" y="0"/>
+</item>
+<item historyLabel="MoteurHybride.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MoteurEssence.java" index="4">
+<position info="not_deleted" x="228" y="1"/>
+</item>
+<item historyLabel="MoteurHybride.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MoteurHybride.java" index="5">
+<position info="not_deleted" x="83" y="4"/>
+</item>
+<item historyLabel="MoteurHybride.java" index="5">
+<position info="not_deleted" x="219" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="692" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="907" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="640" y="6"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="908" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="640" y="6"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="636" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="636" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="316" y="6"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="647" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="340" y="4"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="Vehicule.java" index="1">
+<position info="not_deleted" x="461" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="Vehicule.java" index="1">
+<position info="not_deleted" x="461" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="636" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="Vehicule.java" index="1">
+<position info="not_deleted" x="530" y="28"/>
+</item>
+<item historyLabel="Vehicule.java" index="1">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+<item historyLabel="Vehicule.java" index="1">
+<position info="not_deleted" x="309" y="0"/>
+</item>
+<item historyLabel="List.class" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="List.class" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="Vehicule.java" index="1">
+<position info="not_deleted" x="561" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="617" y="26"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="325" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="Garage.java" index="6">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="Main.java" index="8">
+<position info="not_deleted" x="556" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="8">
+<position info="not_deleted" x="536" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -289,50 +487,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Moteur.java" tooltip="TP_Garage/src/fr/tp/garage/Moteur.java">
-<persistable path="/TP_Garage/src/fr/tp/garage/Moteur.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurHybride.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurHybride.java">
-<persistable path="/TP_Garage/src/fr/class_typemoteur/MoteurHybride.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="D4.java" tooltip="TP_Garage/src/fr/tp/garage/D4.java">
-<persistable path="/TP_Garage/src/fr/tp/garage/D4.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lagouna.java" tooltip="TP_Garage/src/fr/tp/garage/Lagouna.java">
-<persistable path="/TP_Garage/src/fr/tp/garage/Lagouna.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vehicule.java" tooltip="TP_Garage/src/fr/tp/garage/Vehicule.java">
-<persistable path="/TP_Garage/src/fr/tp/garage/Vehicule.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="List.class" tooltip="java.util.List">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TP_Garage/\/usr\/lib\/jvm\/java-7-openjdk-i386\/jre\/lib\/rt.jar&lt;java.util(List.class"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Garage.java" tooltip="TP_Garage/src/fr/tp/garage/Garage.java">
 <persistable path="/TP_Garage/src/fr/tp/garage/Garage.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurHybride.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurHybride.java">
+<persistable path="/TP_Garage/src/fr/class_typemoteur/MoteurHybride.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurEssence.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurEssence.java">
+<persistable path="/TP_Garage/src/fr/class_typemoteur/MoteurEssence.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurDiesel.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurDiesel.java">
+<persistable path="/TP_Garage/src/fr/class_typemoteur/MoteurDiesel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoteurElectrique.java" tooltip="TP_Garage/src/fr/class_typemoteur/MoteurElectrique.java">
+<persistable path="/TP_Garage/src/fr/class_typemoteur/MoteurElectrique.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vehicule.java" tooltip="TP_Garage/src/fr/class_vehicules/Vehicule.java">
+<persistable path="/TP_Garage/src/fr/class_vehicules/Vehicule.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="TP_Garage/src/fr/tp/garage/openclassrooms/Main.java">
+<persistable path="/TP_Garage/src/fr/tp/garage/openclassrooms/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Moteur.java" tooltip="TP_Garage/src/fr/tp/garage/Moteur.java">
+<persistable path="/TP_Garage/src/fr/tp/garage/Moteur.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="TP_Garage/src/fr/tp/garage/openclassrooms/Test.java">
+<persistable path="/TP_Garage/src/fr/tp/garage/openclassrooms/Test.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TypeMoteur.java" tooltip="TP_Garage/src/fr/constantes/garage/TypeMoteur.java">
 <persistable path="/TP_Garage/src/fr/constantes/garage/TypeMoteur.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Marque.java" tooltip="TP_Garage/src/fr/constantes/garage/Marque.java">
-<persistable path="/TP_Garage/src/fr/constantes/garage/Marque.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Moteur.java" tooltip="TP_Garage/src/fr/class_typemoteur/Moteur.java">
+<persistable path="/TP_Garage/src/fr/class_typemoteur/Moteur.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="TP_Garage/src/Test.java">
-<persistable path="/TP_Garage/src/Test.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Option.java" tooltip="TP_Garage/src/fr/class_options/Option.java">
+<persistable path="/TP_Garage/src/fr/class_options/Option.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solo.java" tooltip="P2C9_Generecite/src/Solo.java">
-<persistable path="/P2C9_Generecite/src/Solo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VitreElectrique.java" tooltip="TP_Garage/src/fr/class_options/VitreElectrique.java">
+<persistable path="/TP_Garage/src/fr/class_options/VitreElectrique.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Paire.java" tooltip="P2C11_instanciation_dyn/src/Paire.java">
-<persistable path="/P2C11_instanciation_dyn/src/Paire.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="P2C11_instanciation_dyn/src/Main.java">
-<persistable path="/P2C11_instanciation_dyn/src/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="P2C11_reflexivite/src/Main.java">
-<persistable path="/P2C11_reflexivite/src/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Notice.java" tooltip="P2C10_io/src/Notice.java">
-<persistable path="/P2C10_io/src/Notice.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt~" tooltip="P2C10_io/src/test.txt~">
-<persistable path="/P2C10_io/src/test.txt~"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SiegeChauffant.java" tooltip="TP_Garage/src/fr/class_options/SiegeChauffant.java">
+<persistable path="/TP_Garage/src/fr/class_options/SiegeChauffant.java"/>
 </file>
 </mruList>
 </workbench>

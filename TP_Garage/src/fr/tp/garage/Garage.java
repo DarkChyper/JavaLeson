@@ -3,6 +3,11 @@
  */
 public package fr.tp.garage;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import fr.class_vehicules.Vehicule;
+
 /**
  * Classee principale de mon garage contenant la liste des voitures permettant
  * d'afficher le contenu du garage et d'ajouter des voitures
@@ -11,7 +16,20 @@ public package fr.tp.garage;
  * 
  */
 public class Garage {
+	private final List<Vehicule> voitures = new ArrayList<Vehicule>();
 
-	// todo creation de la liste des véhicule
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
 
+	public void addVoiture(final Vehicule voit) {
+		this.voitures.add(voit);
+	}
 }
