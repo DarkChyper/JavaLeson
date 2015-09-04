@@ -18,4 +18,9 @@ public class VitreElectrique implements Option {
 	public Double getPrix() {
 		return 212.3;
 	}
+
+	@Override
+	public String toString() {
+		return "Vitre electrique";
+	}
 }

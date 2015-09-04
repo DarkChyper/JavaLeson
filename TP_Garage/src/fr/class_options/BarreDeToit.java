@@ -18,4 +18,14 @@ public class BarreDeToit implements Option {
 	public Double getPrix() {
 		return 29.9;
 	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Barre de toit";
+	}
 }

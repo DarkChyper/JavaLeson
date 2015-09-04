@@ -17,4 +17,5 @@
 <fullyQualifiedTypeName name="fr.constantes.garage.TypeMoteur"/>
 <fullyQualifiedTypeName name="fr.class_options.Option"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>

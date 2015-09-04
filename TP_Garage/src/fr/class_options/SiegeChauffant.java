@@ -18,4 +18,14 @@ public class SiegeChauffant implements Option {
 	public Double getPrix() {
 		return 562.9;
 	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Siege Chauffant";
+	}
 }

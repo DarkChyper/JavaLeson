@@ -25,10 +25,17 @@ public class Garage {
 	 */
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		final StringBuilder garage = new StringBuilder();
+		for (final Vehicule voiture : voitures) {
+			garage.append(voiture);
+			garage.append("\n");
+		}
+		return garage.toString();
 	}
 
+	/**
+	 * @param voit
+	 */
 	public void addVoiture(final Vehicule voit) {
 		this.voitures.add(voit);
 	}

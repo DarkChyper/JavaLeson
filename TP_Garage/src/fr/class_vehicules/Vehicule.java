@@ -112,8 +112,24 @@ public class Vehicule {
 	 */
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		final StringBuilder vehicule = new StringBuilder();
+		vehicule.append("Voiture ");
+		vehicule.append(this.nomMarque);
+		vehicule.append(" : ");
+		vehicule.append(this.nom);
+		vehicule.append(" ");
+		if (!this.listeOption.isEmpty()) {
+			vehicule.append("[ ");
+			for (final Option option : listeOption) {
+				vehicule.append(option.toString());
+				vehicule.append(" (");
+				vehicule.append(option.getPrix());
+				vehicule.append(") ");
+			}
+			vehicule.append("]");
+		}
+
+		return vehicule.toString();
 	}
 
 }
