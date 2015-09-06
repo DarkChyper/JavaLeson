@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package fr.constantes.garage;
+
+/**
+ * Enumerateur contenant les types de moteurs disponible dans le garage
+ * 
+ * @author dark
+ * 
+ */
+public class TypeMoteur {
+
+}

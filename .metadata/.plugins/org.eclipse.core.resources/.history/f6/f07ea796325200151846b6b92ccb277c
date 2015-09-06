@@ -1,0 +1,98 @@
+/**
+ * 
+ */
+public package fr.class_vehicules;
+
+import java.util.List;
+
+import fr.class_options.Option;
+import fr.class_typemoteur.Moteur;
+import fr.constantes.garage.Marque;
+
+/**
+ * @author dark
+ * 
+ */
+public class Vehicule {
+	private Double prix;
+	private String nom;
+	private List<Option> liseOption;
+	private Moteur moteur;
+	private Marque nomMarque;
+
+	/**
+	 * @return the prix
+	 */
+	public Double getPrix() {
+		return prix;
+	}
+
+	/**
+	 * @param prix
+	 *            the prix to set
+	 */
+	public void setPrix(final Double prix) {
+		this.prix = prix;
+	}
+
+	/**
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+	/**
+	 * @param nom
+	 *            the nom to set
+	 */
+	public void setNom(final String nom) {
+		this.nom = nom;
+	}
+
+	/**
+	 * @return the liseOption
+	 */
+	public List<Option> getLiseOption() {
+		return liseOption;
+	}
+
+	/**
+	 * @param liseOption
+	 *            the liseOption to set
+	 */
+	public void setLiseOption(final List<Option> liseOption) {
+		this.liseOption = liseOption;
+	}
+
+	/**
+	 * @return the moteur
+	 */
+	public Moteur getMoteur() {
+		return moteur;
+	}
+
+	/**
+	 * @param moteur
+	 *            the moteur to set
+	 */
+	public void setMoteur(final Moteur moteur) {
+		this.moteur = moteur;
+	}
+
+	/**
+	 * @return the nomMarque
+	 */
+	public Marque getNomMarque() {
+		return nomMarque;
+	}
+
+	/**
+	 * @param nomMarque
+	 *            the nomMarque to set
+	 */
+	public void setNomMarque(final Marque nomMarque) {
+		this.nomMarque = nomMarque;
+	}
+
+}

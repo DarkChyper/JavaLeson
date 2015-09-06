@@ -1,0 +1,13 @@
+package fr.class_options;
+
+/**
+ * @author dark
+ * 
+ */
+public interface Option {
+	/**
+	 * @return
+	 */
+	public Double getPrix();
+
+}

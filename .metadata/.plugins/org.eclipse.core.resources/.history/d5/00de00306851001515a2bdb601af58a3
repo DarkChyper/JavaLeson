@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package fr.tp.garage;
+
+/**
+ * lasse héritant de Véhicule et créant une Véhivule Lagouna C
+ * 
+ * @author dark
+ * 
+ */
+public class Lagouna extends Vehicule {
+
+}

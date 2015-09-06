@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fr.class_options;
+
+/**
+ * @author dark
+ * 
+ */
+public class BarreDeToit {
+	Double prix = 29.9;
+}

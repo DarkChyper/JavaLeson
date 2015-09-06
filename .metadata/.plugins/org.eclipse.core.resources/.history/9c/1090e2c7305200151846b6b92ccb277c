@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package fr.class_options;
+
+/**
+ * @author dark
+ * 
+ */
+public class GPS implements Option {
+	Double prix = 113.5;
+
+	@Override
+	public Double getPrix() {
+		// TODO Auto-generated method stub
+		return this.prix;
+	}
+}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package fr.class_typemoteur;
+
+import fr.constantes.garage.TypeMoteur;
+
+
+/**
+ * @author dark
+ * 
+ */
+public class MoteurEssence extends Moteur {
+
+	public MoteurEssence(String cylindre, Double prix) {
+		super(cylindre, prix);
+		this.type = TypeMoteur.ESSENCE;
+	}
+
+}

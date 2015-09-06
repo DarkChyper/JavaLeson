@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fr.class_options;
+
+/**
+ * @author dark
+ * 
+ */
+public class SiegeChauffant {
+	Double prix = 562.9;
+}

@@ -1,0 +1,43 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(final String[] args) {
+		final String nom = Paire.class.getName();
+		try {
+			// On crée un objet Class
+			final Class cl = Class.forName(nom);
+			// Nouvelle instance de la classe Paire
+			final Object o = cl.newInstance();
+
+			// On crée les paramètres du constructeur
+			final Class[] types = new Class[] { String.class, String.class };
+			// On récupère le constructeur avec les deux paramètres
+			final Constructor ct = cl.getConstructor(types);
+
+			// On instancie l'objet avec le constructeur surchargé !
+			final Object o2 = ct.newInstance(new String[] { "valeur 1 ",
+					"valeur 2" });
+
+		} catch (final SecurityException e) {
+			e.printStackTrace();
+		} catch (final IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (final ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (final InstantiationException e) {
+			e.printStackTrace();
+		} catch (final IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (final NoSuchMethodException e) {
+			e.printStackTrace();
+		} catch (final InvocationTargetException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

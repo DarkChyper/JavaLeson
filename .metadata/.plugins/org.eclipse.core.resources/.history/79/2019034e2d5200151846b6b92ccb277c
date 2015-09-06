@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package fr.class_typemoteur;
+
+import fr.constantes.garage.TypeMoteur;
+
+/**
+ * @author dark
+ * 
+ */
+public class Moteur {
+
+	protected TypeMoteur type;
+	protected String cylindre;
+	protected Double prix;
+
+}

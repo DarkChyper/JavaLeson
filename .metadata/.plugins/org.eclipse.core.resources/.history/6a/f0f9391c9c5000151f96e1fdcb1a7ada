@@ -1,0 +1,16 @@
+public class Paire {
+	private final String valeur1, valeur2;
+
+	public Paire() {
+		this.valeur1 = null;
+		this.valeur2 = null;
+		System.out.println("Instanciation !");
+	}
+
+	public Paire(final String val1, final String val2) {
+		this.valeur1 = null;
+		this.valeur2 = null;
+		System.out.println("Instanciation avec des paramètres!");
+	}
+
+}

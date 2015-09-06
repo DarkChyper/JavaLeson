@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package fr.class_typemoteur;
+
+/**
+ * @author dark
+ * 
+ */
+public class MoteurHybride extends Moteur {
+
+	public MoteurHybride(final String cylindre, final Double prix) {
+		super(cylindre, prix);
+		// TODO Auto-generated constructor stub
+	}
+
+}

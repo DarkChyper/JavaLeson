@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package fr.class_typemoteur;
+
+import fr.constantes.garage.TypeMoteur;
+
+/**
+ * @author dark
+ * 
+ */
+public class Moteur {
+
+	protected TypeMoteur type;
+	protected String cylindre;
+	protected Double prix;
+
+	public Moteur(final String cylindre, final Double prix) {
+		this.cylindre = cylindre;
+		this.prix = prix;
+
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		final String str = new String("Moteur " + this.type + " "
+				+ this.cylindre + " (");
+		return str;
+	}
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fr.constantes.garage;
+
+/**
+ * @author dark
+ *
+ */
+public class TypeMoteur {
+
+}

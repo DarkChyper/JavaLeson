@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package fr.constantes.garage;
+
+/**
+ * Enumeration regroupant les marques de voiture disponible
+ * 
+ * @author dark
+ * 
+ */
+public enum Marque {
+
+}

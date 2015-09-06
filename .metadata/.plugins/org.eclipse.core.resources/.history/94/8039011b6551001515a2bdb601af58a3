@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package fr.constantes.garage;
+
+/**
+ * Enumerateur contenant les types de moteurs disponible dans le garage
+ * 
+ * @author dark
+ * 
+ */
+public class TypeMoteur {
+
+	DIESEL("DIESEL"), ESSENCE("ESSENCE"), HYBRIDE("HYBRIDE"), ELECTRIQUE("ELECTRIQUE");
+	
+	private String typemoteur,
+	
+}

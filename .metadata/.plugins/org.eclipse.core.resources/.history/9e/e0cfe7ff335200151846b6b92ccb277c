@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+public package fr.tp.garage;
+
+import fr.class_vehicules.Vehicule;
+
+/**
+ * Classee principale de mon garage contenant la liste des voitures permettant
+ * d'afficher le contenu du garage et d'ajouter des voitures
+ * 
+ * @author dark
+ * 
+ */
+public class Garage {
+	private List<Vehicule> voitures;
+}

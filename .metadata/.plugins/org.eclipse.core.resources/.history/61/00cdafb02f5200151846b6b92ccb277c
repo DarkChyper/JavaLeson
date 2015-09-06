@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package fr.class_typemoteur;
+
+
+/**
+ * @author dark
+ * 
+ */
+public class MoteurDiesel extends Moteur {
+
+}

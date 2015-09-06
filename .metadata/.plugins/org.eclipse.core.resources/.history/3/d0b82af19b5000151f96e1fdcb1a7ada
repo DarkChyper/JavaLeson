@@ -1,0 +1,3 @@
+public class Paire {
+	private String valeur1, valeur2;
+}

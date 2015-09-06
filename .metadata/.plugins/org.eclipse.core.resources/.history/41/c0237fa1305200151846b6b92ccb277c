@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fr.class_options;
+
+/**
+ * @author dark
+ * 
+ */
+public class GPS {
+	Double prix = 113.5;
+}

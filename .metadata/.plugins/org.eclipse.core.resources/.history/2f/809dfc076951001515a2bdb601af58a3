@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package fr.tp.garage;
+
+/**
+ * Classe héritant de Véhicule et créant une Véhivule Lagouna C
+ * 
+ * @author dark
+ * 
+ */
+public class A300B extends Vehicule {
+
+}

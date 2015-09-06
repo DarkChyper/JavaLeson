@@ -1,0 +1,6 @@
+package fr.class_options;
+
+public interface Option {
+	public Double getPrix();
+		
+}

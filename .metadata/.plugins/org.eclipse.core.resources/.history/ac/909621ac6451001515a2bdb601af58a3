@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package fr.constantes.garage;
+
+/**
+ * Enumeration regroupant les marques de voiture disponibles
+ * 
+ * @author dark
+ * 
+ */
+public enum Marque {
+	RENO("RENO"), PIGEOT("PIGEOT"), TROEN("TROEN");
+
+	private String marque;
+
+	private Marque(final String marque) {
+		this.marque = marque;
+	}
+
+	public String getMarque() { return marque;
+	}
+}
