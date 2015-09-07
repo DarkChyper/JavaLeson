@@ -28,8 +28,7 @@ public class Moteur {
 	 */
 	@Override
 	public String toString() {
-		final String str = new String("Moteur " + this.type + " "
-				+ this.cylindre + " (" + this.prix);
+		final String str = new String("Moteur " + this.type + " " + this.cylindre + " (" + this.prix + "€) " ) ;
 		return str;
 	}
 

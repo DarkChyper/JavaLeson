@@ -26,6 +26,6 @@ public class SiegeChauffant implements Option {
 	 */
 	@Override
 	public String toString() {
-		return "Siege Chauffant";
+		return "Siege Chauffant (" + getPrix() + "€)";
 	}
 }

@@ -26,6 +26,6 @@ public class Climatisation implements Option {
 	 */
 	@Override
 	public String toString() {
-		return "Climatisation";
+		return "Climatisation (" + getPrix() + "€)";
 	}
 }

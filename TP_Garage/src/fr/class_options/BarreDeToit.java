@@ -26,6 +26,6 @@ public class BarreDeToit implements Option {
 	 */
 	@Override
 	public String toString() {
-		return "Barre de toit";
+		return "Barre de toit (" + getPrix() + "€)";
 	}
 }

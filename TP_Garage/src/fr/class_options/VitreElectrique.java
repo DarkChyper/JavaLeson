@@ -21,6 +21,6 @@ public class VitreElectrique implements Option {
 
 	@Override
 	public String toString() {
-		return "Vitre electrique";
+		return "Vitre electrique (" + getPrix() + "€)";
 	}
 }

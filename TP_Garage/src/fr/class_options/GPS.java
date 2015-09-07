@@ -26,7 +26,7 @@ public class GPS implements Option {
 	 */
 	@Override
 	public String toString() {
-		return "GPS";
+		return "GPS (" + getPrix() + "€)";
 	}
 
 }

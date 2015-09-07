@@ -4,6 +4,8 @@
 public package fr.class_vehicules;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Enumeration;
 import java.util.List;
 
 import fr.class_options.Option;
@@ -20,6 +22,7 @@ public class Vehicule {
 	private List<Option> listeOption = new ArrayList<Option>();
 	private Moteur moteur;
 	private Marque nomMarque;
+
 
 	/**
 	 * Ajoute une option à la liste des options
@@ -38,11 +41,19 @@ public class Vehicule {
 	}
 
 	/**
+	 * Calcul du prix total du vehicule en comptabilisant les options
 	 * @param prix
 	 *            the prix to set
 	 */
 	public void setPrix(final Double prix) {
-		this.prix = prix;
+		Double prixTotal = null;
+		prixTotal = moteur.getPrix();
+		if (!this.listeOption.isEmpty()) {
+			for (final Option option : listeOption) {
+				prixTotal = prixTotal + option.getPrix();
+			}
+		}
+		this.prix = prixTotal;
 	}
 
 	/**
@@ -113,22 +124,30 @@ public class Vehicule {
 	@Override
 	public String toString() {
 		final StringBuilder vehicule = new StringBuilder();
+		vehicule.append("+ ");
 		vehicule.append("Voiture ");
-		vehicule.append(this.nomMarque);
+		vehicule.append(getNomMarque());
 		vehicule.append(" : ");
-		vehicule.append(this.nom);
+		vehicule.append(getNom());
 		vehicule.append(" ");
+		vehicule.append(getMoteur());
+		// On vérifie qu'il y a une option avant de les parcourir
 		if (!this.listeOption.isEmpty()) {
 			vehicule.append("[ ");
-			for (final Option option : listeOption) {
-				vehicule.append(option.toString());
-				vehicule.append(" (");
-				vehicule.append(option.getPrix());
-				vehicule.append(") ");
-			}
-			vehicule.append("]");
-		}
+			//on cré une énumération pour parcourir la liste d'options
+			final Enumeration e = Collections.enumeration(listeOption);
+			while(e.hasMoreElements()){
+				vehicule.append(e.nextElement().toString());
+				if(e.hasMoreElements()){
+					vehicule.append(", ");
+				}
 
+			}
+			vehicule.append("] ");
+		}
+		vehicule.append("d'une valeur totale de ");
+		vehicule.append(getPrix());
+		vehicule.append("€.");
 		return vehicule.toString();
 	}
 
