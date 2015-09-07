@@ -10,5 +10,14 @@ package fr.class_vehicules;
  * 
  */
 public class D4 extends Vehicule {
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see fr.class_vehicules.Vehicule#toString()
+	 */
+	@Override
+	public String toString() {
+		return "D4";
+	}
 
 }

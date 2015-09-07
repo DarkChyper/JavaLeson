@@ -44,6 +44,9 @@ Desktop.ini
 ######################
  
 *.pydevproject
+.classpath
+.project
+**/.metadata
 bin/**
 tmp/**
 tmp/**/*
