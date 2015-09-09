@@ -3,11 +3,18 @@
  */
 package fr.class_options;
 
+import java.io.Serializable;
+
 /**
  * @author dark
  * 
  */
-public class GPS implements Option {
+public class GPS implements Option, Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	/*
 	 * (non-Javadoc)

@@ -3,6 +3,7 @@
  */
 public package fr.class_vehicules;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -16,7 +17,7 @@ import fr.constantes.garage.Marque;
  * @author dark
  * 
  */
-public class Vehicule {
+public class Vehicule implements Serializable {
 	private Double prix;
 	private String nom;
 	private List<Option> listeOption = new ArrayList<Option>();
@@ -46,14 +47,8 @@ public class Vehicule {
 	 *            the prix to set
 	 */
 	public void setPrix(final Double prix) {
-		Double prixTotal = null;
-		prixTotal = moteur.getPrix();
-		if (!this.listeOption.isEmpty()) {
-			for (final Option option : listeOption) {
-				prixTotal = prixTotal + option.getPrix();
-			}
-		}
-		this.prix = prixTotal;
+
+		this.prix = prix;
 	}
 
 	/**
@@ -135,7 +130,7 @@ public class Vehicule {
 		if (!this.listeOption.isEmpty()) {
 			vehicule.append("[ ");
 			//on cré une énumération pour parcourir la liste d'options
-			final Enumeration e = Collections.enumeration(listeOption);
+			final Enumeration<Option> e = Collections.enumeration(listeOption);
 			while(e.hasMoreElements()){
 				vehicule.append(e.nextElement().toString());
 				if(e.hasMoreElements()){

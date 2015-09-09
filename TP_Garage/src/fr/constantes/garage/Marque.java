@@ -3,13 +3,15 @@
  */
 public package fr.constantes.garage;
 
+import java.io.Serializable;
+
 /**
  * Enumeration regroupant les marques de voiture disponibles
  * 
  * @author dark
  * 
  */
-public enum Marque {
+public enum Marque implements Serializable{
 	RENO("RENO"), PIGEOT("PIGEOT"), TROEN("TROEN");
 
 	private String marque;

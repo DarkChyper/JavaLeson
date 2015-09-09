@@ -3,6 +3,8 @@
  */
 package fr.class_vehicules;
 
+import java.io.Serializable;
+
 import fr.constantes.garage.Marque;
 
 /**
@@ -11,7 +13,11 @@ import fr.constantes.garage.Marque;
  * @author dark
  * 
  */
-public class D4 extends Vehicule {
+public class D4 extends Vehicule implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/* (non-Javadoc)
 	 * @see fr.class_vehicules.Vehicule#getNom()
 	 */

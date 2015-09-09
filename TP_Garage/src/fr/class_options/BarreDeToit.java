@@ -3,11 +3,18 @@
  */
 package fr.class_options;
 
+import java.io.Serializable;
+
 /**
  * @author dark
  * 
  */
-public class BarreDeToit implements Option {
+public class BarreDeToit implements Option, Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	/*
 	 * (non-Javadoc)

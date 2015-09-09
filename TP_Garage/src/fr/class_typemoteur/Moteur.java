@@ -3,14 +3,20 @@
  */
 package fr.class_typemoteur;
 
+import java.io.Serializable;
+
 import fr.constantes.garage.TypeMoteur;
 
 /**
  * @author dark
  * 
  */
-public class Moteur {
+public class Moteur implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	protected TypeMoteur type;
 	private String cylindre;
 	private Double prix;

@@ -3,13 +3,20 @@
  */
 package fr.class_typemoteur;
 
+import java.io.Serializable;
+
 import fr.constantes.garage.TypeMoteur;
 
 /**
  * @author dark
  * 
  */
-public class MoteurHybride extends Moteur {
+public class MoteurHybride extends Moteur implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @param cylindre
