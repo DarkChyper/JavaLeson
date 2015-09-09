@@ -8,6 +8,7 @@ import java.io.Serializable;
 import fr.constantes.garage.TypeMoteur;
 
 /**
+ * Classe définissant le moteur du Vehicule
  * @author dark
  * 
  */
@@ -21,6 +22,10 @@ public class Moteur implements Serializable {
 	private String cylindre;
 	private Double prix;
 
+	/**
+	 * @param cylindre
+	 * @param prix
+	 */
 	public Moteur(final String cylindre, final Double prix) {
 		this.cylindre = cylindre;
 		this.prix = prix;

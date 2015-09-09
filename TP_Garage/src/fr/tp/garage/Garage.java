@@ -34,42 +34,49 @@ public class Garage implements Serializable {
 	private List<Vehicule> voitures = new ArrayList<Vehicule>();
 	private final String fichier;
 
+
 	/**
 	 * Constructeur par défaut du Garage
+	 * @param fichier
 	 */
 	public Garage(final String fichier) {
 		this.fichier = fichier;
 		// On commence par vérifier la présence du fichier contenant les
-		// précédentes voitures enregistrées sous forme d'une ArrayList
+		// précédentes voitures enregistrées sous forme d'une ArrayList<Vehicule>
 		try ( FileInputStream fis = new FileInputStream(this.fichier);
-				ObjectInputStream ois = new ObjectInputStream(fis)) {
+				ObjectInputStream stremIn = new ObjectInputStream(fis)) {
 
-			voitures = (ArrayList<Vehicule>)ois.readObject();
+			@SuppressWarnings("unchecked")
+			final
+			ArrayList<Vehicule> readObject = (ArrayList<Vehicule>)stremIn.readObject();
+			voitures = readObject;
 
 		} catch (final NoSuchFileException e) {
-			System.out.println("Le fichier \"" + fichier + "\" n'existe pas." );
 			System.out.println("Le garage est vide !");
 
 		} catch (final IOException e) {
-			System.out.println("IOException");
 			System.out.println("Le garage est vide");
 
 		} catch (final ClassNotFoundException e) {
-			System.out.println("ClassNotFoundException");
 			System.out.println("Le garage est vide");
 		}       
 
 		finally{
 			// Quoi qu'il arrive, on affiche l'enseigne du Garage OpenClassrooms
-			System.out.println("*************************");
-			System.out.println("* Garage OpenClassrooms *");
-			System.out.println("*************************");
+			final StringBuilder enseigne = new StringBuilder();
+
+			enseigne.append("*************************\n");
+			enseigne.append("* Garage OpenClassrooms *\n");
+			enseigne.append("*************************");
+
+			System.out.println(enseigne.toString());
 		}
 
 	}
 
 	/**
-	 * @return
+	 * 
+	 * @return fichier
 	 */
 	public String getFichier() {
 		return fichier;
@@ -108,16 +115,20 @@ public class Garage implements Serializable {
 		return prixTotal;
 	}
 
+	/**
+	 * Méthode permettant l'enregistrement de la liste dans un fichier.
+	 * Ecrase les données précédemment enregistrées.
+	 * @param listVehicules
+	 */
 	private void EnregistrerGarage(final List<Vehicule> listVehicules){
-		try ( final ObjectOutputStream oos = new ObjectOutputStream(
+		try ( final ObjectOutputStream streamOut = new ObjectOutputStream(
 
 				new BufferedOutputStream(
 
 						new FileOutputStream(
 
 								new File(this.fichier))))){
-			oos.writeObject(listVehicules);
-			System.out.println("Enregistrement OK");
+			streamOut.writeObject(listVehicules);
 
 		}catch (final Exception e) {
 			System.out.println(e);

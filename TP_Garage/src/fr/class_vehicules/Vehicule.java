@@ -14,10 +14,16 @@ import fr.class_typemoteur.Moteur;
 import fr.constantes.garage.Marque;
 
 /**
+ * Classe qui définit un Vehicule.
+ * 
  * @author dark
  * 
  */
 public class Vehicule implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Double prix;
 	private String nom;
 	private List<Option> listeOption = new ArrayList<Option>();
@@ -42,7 +48,7 @@ public class Vehicule implements Serializable {
 	}
 
 	/**
-	 * Calcul du prix total du vehicule en comptabilisant les options
+	 * 
 	 * @param prix
 	 *            the prix to set
 	 */
@@ -118,6 +124,7 @@ public class Vehicule implements Serializable {
 	 */
 	@Override
 	public String toString() {
+		// Construction de l'affichage du garage
 		final StringBuilder vehicule = new StringBuilder();
 		vehicule.append("+ ");
 		vehicule.append("Voiture ");

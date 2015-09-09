@@ -18,7 +18,6 @@ import fr.tp.garage.Garage;
 public class Main {
 	public static void main(final String[] args) {
 		final Garage garage = new Garage("garage");
-		System.out.println(garage);
 
 		final Vehicule lag1 = new Lagouna();
 		lag1.setMoteur(new MoteurEssence("150 Chevaux", 10256d));
