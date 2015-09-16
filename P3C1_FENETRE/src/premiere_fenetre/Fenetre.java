@@ -19,16 +19,17 @@ public class Fenetre extends JFrame {
 	 */
 	public Fenetre() {
 		this.setTitle("Ma première fenêtre Java");
-		this.setSize(400, 500);
+		this.setSize(200, 200);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setResizable(false);
+		// this.setResizable(false);
 		this.setUndecorated(false);
 
 		final JPanel panel = new JPanel();
 		panel.setBackground(Color.ORANGE);
 
 		this.setContentPane(panel);
+		this.setContentPane(new Panneau());
 
 		this.setVisible(true);
 	}
