@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 
 public class Panneau extends JPanel {
 	private int posX = -50;
-	private int posY = -50;
+	private int posY = -100;
 
 	@Override
 	public void paintComponent(final Graphics g) {

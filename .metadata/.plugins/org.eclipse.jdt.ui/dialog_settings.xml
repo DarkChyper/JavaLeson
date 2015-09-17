@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="581" key="clean_up_save_particpant_modify_dialog.preferred_height"/>
+	<item value="602" key="clean_up_save_particpant_modify_dialog.preferred_height"/>
 	<item value="152" key="clean_up_save_particpant_modify_dialog.preferred_y"/>
 	<item value="460" key="clean_up_save_particpant_modify_dialog.preferred_x"/>
 	<item value="0" key="org.eclipse.jdt.uiformatter_page.modify_dialog_tab_page.last_focus_index"/>
 	<item value="861" key="clean_up_save_particpant_modify_dialog.preferred_width"/>
-	<item value="4" key="clean_up_save_particpant_modify_dialog.last_focus"/>
+	<item value="1" key="clean_up_save_particpant_modify_dialog.last_focus"/>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item value="467" key="DIALOG_WIDTH"/>
 		<item value="88" key="DIALOG_Y_ORIGIN"/>
@@ -104,7 +104,7 @@
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
-		<item value="false" key="create_main"/>
+		<item value="true" key="create_main"/>
 		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
